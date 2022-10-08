@@ -1,0 +1,42 @@
+.form {
+  margin-top: 20vh;
+  margin-left: 15vw;
+  margin-right: 15vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: var(--fs-400);
+}
+
+.question-label,
+.answer-label,
+.tag-label {
+  margin-top: 5vh;
+  margin-left: 0;
+  margin-right: auto;
+}
+
+.textarea {
+  display: block;
+  width: 60vw;
+}
+
+.form-button-submit {
+  margin-top: 5vh;
+  width: 20vw;
+}
+
+.submit-button:hover {
+  opacity: 0.75;
+  cursor: pointer;
+}
+
+.submit-button {
+  background: var(--secondary-light);
+  color: var(--black);
+  border: 1px solid var(--black);
+  display: block;
+  margin: 5vh auto 2rem auto;
+  padding: 1rem;
+  border-radius: 4px;
+}
