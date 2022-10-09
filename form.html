@@ -13,7 +13,8 @@
       <h1 class="header__title">Quiz App</h1>
     </header>
     <main>
-      <form class="form">
+      <fieldset>
+      <form class="form" data-js="form">
         <label class="question-label" for="input-question"
           >Your question:</label
         >
@@ -22,6 +23,7 @@
           type="text"
           id="input-question"
           name="input-question"
+          data-js="input-question"
           required
         ></textarea>
         <label class="answer-label" for="input-question">Your answer:</label>
@@ -30,9 +32,10 @@
           type="text"
           id="input-answer"
           name="input-answer"
+          data-js="input-answer"
           required
         ></textarea>
-        <label class="tag-label" for="input-question">Tag:</label>
+        <label class="tag-label" for="input-question" data-js="input-tag">Tag:</label>
         <input
           class="textarea2"
           type="text"
@@ -42,6 +45,7 @@
         ></input>
         <button class="submit-button" type="submit">Submit</button>
       </form>
+    </fieldset>
     </main>
     <nav class="navigation">
       <ul class="navigation__list">
